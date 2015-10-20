@@ -23,15 +23,7 @@
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1 pad-t">
         <h1 class="peta gutter push-0"><a class="tblack sans-serif" href="index.html"><img class="mark" src="images/wordmark.png" alt="Brad Doyle"></a></h1>
       </div>
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-        <nav>
-          <ul class="center">
-            <li class="nav gutter-1-2 "><a href="{{site.baseurl}}/index.html" title="homepage">HOME</a></li>
-            <li class="nav gutter-1-2 "><a href="{{site.baseurl}}/#work" title="Work Sections">WORK</a></li>
-            <li class="nav gutter-1-2 "><a href="{{site.baseurl}}/contact.html" title="Contact">CONTACT</a></li>
-          </ul>
-        </nav>
-      </div>
+      {% include nav.html %}
       <img class="wimg push-0" src="images/line.svg">
     </div>
 </header>
@@ -64,6 +56,7 @@
     </div>
   </div>
 <footer class="grid footer micro tan" >
+  {% include nav.html %}
   <div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-half">
     <p class="tblack push-0">© 2015 Doyle Designs</p>
   </div>
