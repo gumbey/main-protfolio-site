@@ -1,17 +1,15 @@
 ---
-layout: default
-title: Silent Entropy Gaming Logo
-src: seg-logo-color.jpg
+layout: test
+title: Micheal Letcher Logo
 category: logobranding
+src: images/m-logo-color.jpg
 Programs:
   - Illustrator
 ---
 
 ## Early  Sketching
-src: scansketching-1.jpg
 
-Maecenas sed diam eget risus varius blandit sit amet non magna.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+This is just testing out how to do shit in this stupid markdown YAML jekyll thing
 
 src: scansketch-2.jpg
 
