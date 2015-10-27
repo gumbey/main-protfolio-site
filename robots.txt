@@ -1,0 +1,3 @@
+Sitemap: https://doyledesigns.ca/sitemap.xml
+
+user-agent: *

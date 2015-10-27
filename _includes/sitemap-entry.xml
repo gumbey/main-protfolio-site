@@ -1,0 +1,10 @@
+<url>
+  <loc>http://doyledesigns.ca{{site.baseurl}}{{include.entry.url}}</loc>
+    {% if include.entry.changefreg %}
+      <changefreq>monthly</changefreq>
+    {% endif %}
+    {% if include.endtry.priority %}
+      <priority>0.5</priority>
+    {% endif %}
+
+</url>

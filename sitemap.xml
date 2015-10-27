@@ -1,0 +1,15 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+{% for posts in site.posts %}
+  {% include sitemap-entry.xml entry=posts %}
+{% endfor %}
+
+{% for page in site.pages %}
+  {% include sitemap-entry.xml entry=posts %}
+{% endfor %}
+
+
+</urlset>

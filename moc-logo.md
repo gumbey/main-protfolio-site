@@ -1,4 +1,5 @@
 ---
+meta: Logo and branding that I was hired to do for a web developer.
 layout: test
 title: Micheal Letcher Logo
 category: logobranding
