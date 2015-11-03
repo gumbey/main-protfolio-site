@@ -1,5 +1,24 @@
 ---
 meta: Work shown in here is all personal project of mine over the years.
-title: Personal Work
-layout: workoverview
+title: Personal Work • Doyle Designs
+layout: default
 ---
+<main role="main" id="main">
+<article>
+
+<div class="grid">
+{% for item in site.categories.persoanl %}
+  <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+    <a href="{{site.baseurl}}{{item.url}}">
+      <figure>
+        <img class="wimg" src="{{site.baseurl}}/images/{{item.src}}">
+        <figcaption class="cap">
+          <h3 class="exa">{{item.title}}</h3>
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
+</article>
