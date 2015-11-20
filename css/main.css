@@ -118,8 +118,6 @@ p, a{
 a{
   text-decoration: none;
   font-family: "Roboto" , sans-serif;
-  margin: 2px;
-  padding: 4px;
 }
 
 .drop-down {
@@ -159,8 +157,12 @@ font-size: .75rem;
   margin: auto;
 }
 
+.conimg {
+  width: 50%
+}
+
 .wimg {
-  width: 100%;
+  width: 100%
 }
 
 .me{
