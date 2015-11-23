@@ -10,12 +10,7 @@ layout: default
 {% for item in site.categories.motion %}
   <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
     <a href="{{site.baseurl}}{{item.url}}">
-      <figure>
         <img class="wimg" src="{{site.baseurl}}/images/{{item.src}}">
-        <figcaption class="cap">
-          <h3 class="exa">{{item.title}}</h3>
-        </figcaption>
-      </figure>
     </a>
   </div>
 {% endfor %}
