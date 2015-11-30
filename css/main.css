@@ -249,10 +249,19 @@ height: 3rem;
   font-weight: 700;
 }
 
+.land {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+}
 
 @media only screen and (min-width:25em) {
 .bilpad {
   padding: 35.5em 0;
+}
+.land {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 }
 
